@@ -21,7 +21,22 @@ Este proyecto ejecuta pruebas automatizadas sobre la aplicación **UICatalog** (
 
 ## ⚙️ **Estructura del proyecto**
 
----
+```bash
+ios-automation-framework/
+├── config/                # Configuración de capacidades y entorno
+│   ├── wdio.conf.js       # Archivo principal de configuración de WebdriverIO
+├── pages/                 # Clases con los Page Objects
+│   ├── actionSheets.page.js
+│   ├── alerts.page.js
+│   └── buttons.page.js
+├── tests/                 # Casos de prueba automatizados
+│   ├── actionSheets.test.js
+│   ├── alerts.test.js
+│   └── buttons.test.js
+├── package.json           # Dependencias y scripts de NPM
+├── .gitignore
+└── README.md
+
 
 
 
