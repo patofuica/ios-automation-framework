@@ -1,0 +1,55 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Node / NPM / Yarn / PNPM
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+package-lock.json
+# (si quieres fijar lockfile, elimínalo de aquí)
+
+# WebdriverIO / Allure
+.allure-results/
+allure-results/
+allure-report/
+reports/
+report/
+coverage/
+
+# Logs / tmp
+logs/
+*.log
+tmp/
+temp/
+
+# Env / credenciales
+.env
+.env.*
+*.pem
+*.p12
+*.key
+.keystore
+.npmrc
+
+# iOS / Xcode (no subas builds)
+DerivedData/
+build/
+*.xcarchive
+*.ipa
+*.app
+# Si tienes UICatalog.app local, NO lo subas
+
+# IDE
+.vscode/
+.idea/
+
+# Artifacts de pruebas
+screenshots/
+videos/
+
+# Sistema
+Thumbs.db
