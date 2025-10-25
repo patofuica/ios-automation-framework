@@ -103,7 +103,7 @@ describe('Action Sheets', () => {
 ## 📊 **Reportes con Allure**
 
 Después de cada ejecución, se generan reportes en la carpeta `reports/allure-results/`.  
-Podés visualizarlos con:
+Puedes visualizarlos con:
 ```bash
 npx allure open
  ```
